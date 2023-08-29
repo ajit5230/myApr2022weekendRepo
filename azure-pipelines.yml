@@ -10,10 +10,10 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
-trigger:
+- trigger:
  - main
 
-variables:
+- variables:
 
   # Azure Resource Manager connection created during pipeline creation
   azureSubscription: 'd91113b5-3cd2-4594-b91e-cf81eebd4d52'
