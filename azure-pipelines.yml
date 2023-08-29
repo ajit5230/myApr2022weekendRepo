@@ -14,8 +14,6 @@
   # Web app name
   webAppName: 'ajwebapp12'
 
-  # Environment name
-  environmentName: 'ajwebapp12'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
