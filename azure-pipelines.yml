@@ -19,10 +19,10 @@ variables:
   azureSubscription: 'd91113b5-3cd2-4594-b91e-cf81eebd4d52'
 
   # Web app name
-  webAppName: 'aj5230webapp'
+  webAppName: 'ajwebapp12'
 
   # Environment name
-  environmentName: 'aj5230webapp'
+  environmentName: 'ajwebapp12'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -67,7 +67,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: mySuperAwesomeApp'
+            displayName: 'Azure Web App Deploy: ajwebapp12'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
